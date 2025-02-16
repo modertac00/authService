@@ -1,0 +1,21 @@
+# @accessToken = <your_access_token_here>
+
+### get all users
+GET {{baseUrl}}/users
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+### get paginated users
+GET {{baseUrl}}/users?page=2&limit=5
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+### search users
+GET {{baseUrl}}/users?search=test
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}
+
+### paginate and search users
+GET {{baseUrl}}/users?page=1&limit=10&search=test
+Content-Type: application/json
+Authorization: Bearer {{accessToken}}

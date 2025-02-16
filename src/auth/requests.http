@@ -1,0 +1,19 @@
+### sign up
+POST {{baseUrl}}/auth/signup
+Content-Type: application/json
+
+{
+    "email": "test@mail.com",
+    "password": "password",
+    "userName": "testd",
+    "phone": "1234567890"
+}
+
+### sign in 
+POST {{baseUrl}}/auth/signin
+Content-Type: application/json
+
+{
+    "email": "test@gmail.com",
+    "password": "password"
+}
