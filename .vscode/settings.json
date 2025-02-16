@@ -1,0 +1,8 @@
+{
+  "rest-client.environmentVariables": {
+    "dev": {
+      "baseUrl": "http://localhost:3000",
+      "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI4NmZiNWEyMi03ZDJkLTQ3YzUtOWRjYy1mYTMwNGU4NTFhYWIiLCJpYXQiOjE3Mzk3Mjc5MzgsImV4cCI6MTczOTcyODgzOH0.Z6qLchdqmITVYHzXXqxvkawYTqFVIzbIdWE-iSHrvks"
+      }
+  }
+}
